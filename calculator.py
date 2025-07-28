@@ -34,7 +34,7 @@ elif command=='e':
         try:
             result = result**num
         except OverflowError:
- print("Excuse me!! you can't ask for a domain expansion. That's too big for this realm.")
+            print("Excuse me!! you can't ask for a domain expansion. That's too big for this realm.")
             result="BAKA!"
             break
     print(result)
